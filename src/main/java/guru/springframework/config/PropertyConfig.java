@@ -11,9 +11,6 @@ import org.springframework.core.env.Environment;
 import guru.springframework.examplebeans.FakeDataSource;
 import guru.springframework.examplebeans.FakeJmsBroker;
 
-/**
- * @author Elhadji Barry (dur5268)
- */
 @Configuration
 //@PropertySource({"classpath:datasource.properties", "classpath:jms.properties"})
 @PropertySources({
